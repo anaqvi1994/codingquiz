@@ -1,5 +1,5 @@
 var headerEl = document.getElementById("top");
-var contentId = document.getElementById("content"):
+var contentId = document.getElementById("content");
 
 function createElement(element, type, value, text) {
     var tmp = document.createElement(element);
@@ -33,56 +33,56 @@ function startQuiz(event) {
     questionList = [];
 
     var question0 = {
-        text: "What is the correct syntax for referring to an external script called \"xxx.js \"?",
-        choices: ["1 - <script=\"xxx.js.\">", "2 - <script src=\"xxx.js\">", "3 - <script name=\"xxx.js\">", "4 - <script href=\"xxx.js\'>"],
-        correctAnswer: "option1"
+        text: "There are ___ levels of heading in HTML",
+        choices: ["1 - Three", "2 - Four", "3 - Five", "4 - Six"],
+        correctAnswer: "option4"
     };
     questionList.push(question0);
 
     var question1 = {
-        text: "Commonly used data types do NOT include:",
-        choices: ["1 - Booleans", "2 - Alerts", "3 - Strings", "4 - Numbers"],
-        correctAnswer: "option1",
+        text: "The purpose of markup is to:",
+        choices: ["1 - Add hypertext capabilites", "2 - Enhance the document", "3 - both A&B", "4 - None of the above"],
+        correctAnswer: "option2",
     };
     questionList.push(question1);
 
     var question2 = {
-        text: "The condition of an if/else statement is enclosed within ______.",
-        choices: ["1 - Quotes", "2 - Curly Brackets", "3 - Parentheses", "4 - Square Brackets"],
-        correctAnswer: "option2",
+        text: "If we want to define style for a unique element, which CSS selector will we use?",
+        choices: ["1 - Id", "2 - text", "3 - class", "4 - name"],
+        correctAnswer: "option0",
     };
     questionList.push(question2);
 
     var question3 = {
-        text: "Arrays in Javascript can be used to store ______.",
-        choices: ["1 - Numbers and strings", "2 - Other Arrays", "3 - Booleans", "4 - All of the above",],
-        correctAnswer: "option3",
+        text: "Which of the following tags do not require a terminator?",
+        choices: ["1 - <u>", "2 - <br>", "3 - <b>", "4 - All of the above",],
+        correctAnswer: "option1",
     };
     questionList.push(question3);
 
     var question4 = {
-        text: "String values must be enclosed within ______ when being assigned to variables.",
-        choices: ["1 - Quotes", "2 - Curly Brackets", "3 - Commas", "4 - Parentheses"],
-        correctAnswer: "option0",
+        text: "To get an ordered list we use:",
+        choices: ["1 - <h1>", "2 - <ul>", "3 - <ol>", "4 - <ml>"],
+        correctAnswer: "option2",
     };
     questionList.push(question4);
 
     var question5 = {
-        text: "A very useful tool used during development and debugging for printing content to the debugger is:",
-        choices: ["1 - Javascript", "2 - console.log", "3 - Terminal/bash", "4 - For loops"],
-        correctAnswer: "option1",
+        text: "if we want to wrap a block of text around an image which CSS property will we use? ",
+        choices: ["1 - Wrap", "2 - Push", "3 - Float", "4 - Align"],
+        correctAnswer: "option2",
     };
     questionList.push(question5);
 
     var question6 = {
-        text: "Which built-in method removes the last element from an array and returns that element?",
-        choices: ["1 - last()", "2 - get()", "3 - pop()", "4 - None of the above"],
-        correctAnswer: "option2"
+        text: "How can we write comments within the CSS code?",
+        choices: ["1 - /*a comment*/", "2 - // a comment //", "3 - / a comment /", "4 - <' a comment '>"],
+        correctAnswer: "option0"
     };
     questionList.push(question6);
 
     var question7 = {
-        text: "Inside which HTML element do we put the JavaScript?",
+        text: "How do you link JavaScript to HTML?",
         choices: ["1 - <javascript>", "2 - <scripting>", "3 - <script>", "4 - <js>"],
         correctAnswer: "option2"
 
@@ -90,15 +90,15 @@ function startQuiz(event) {
     questionList.push(question7);
 
     var question8 = {
-        text: "How do you write \"Hello World\" in an alert box?",
-        choices: ["1 - msg(\"Hello World\");", "2 - alertBox(\"Hello World\");", "3 - alert(\"Hello World\");", " 4 - msgBox(\"Hello World\");"],
+        text: "Which of the following is true about variable naming conventions in JavaScript?",
+        choices: ["1 - JavaScript variable names must begin with a letter or the underscore character", "2 - JavaScript variable names are case sensitive", "3 - Both of the above", " 4 - None of the above"],
         correctAnswer: "option2"
     };
     questionList.push(question8);
 
     var question9 = {
-        text: "How to write an IF statement in Javascript?",
-        choices: ["1 - if i = 5 then", "2 - if i = 5", "3 - if i == 5 then", "4 - if (i==5)"],
+        text: "What kind of case is JavaScript written in?",
+        choices: ["1 - uppercase", "2 - Mule case", "3 - lowercase", "4 - Camel case"],
         correctAnswer: "option3"
     };
     questionList.push(question9);
